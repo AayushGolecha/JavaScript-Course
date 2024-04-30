@@ -15,8 +15,8 @@ while (i < 5) {
     player = prompt("Choose b/w Snake, Water & Gun")
     console.log(player)
     if (obj[com] == player) {
-        cScore = cScore + 1
-        pScore = pScore + 1
+        cScore = cScore + 0
+        pScore = pScore + 0
     }
     else if (obj[com] == "S" && player == "W") {
         cScore = cScore + 1
@@ -34,7 +34,7 @@ while (i < 5) {
         pScore = pScore + 1
     }
     else {
-        pScore = pScore + p
+        pScore = pScore + 1
     }
     i++
 }
