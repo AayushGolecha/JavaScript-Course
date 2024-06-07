@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a {
+            padding: 10px;
+            margin: 20px;
+            font-size: 2rem;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 5px solid black;
+            border-radius: 100px;
+        }
+        .glow{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="a a1" onclick="alert('This is Alert 1')">Alert 1</button>
+        <button class="a a2" onclick="alert('This is Alert 2')">Alert 2</button>
+        <button class="a a3">Alert 3</button>
+        <button class="a a4">Alert 4</button>
+    </div>
+
+    <div class="cont">
+        <h1>BookMarks</h1>
+        <a href="https://google.com" target="_blank"><button class="a">Google</button></a>
+        <a href="https://facebook.com" target="_blank"><button class="a">Facebook</button></a>
+        <a href="https://twitter.com" target="_blank"><button class="a">Twitter</button></a>
+        <button class="a" id="insta">Instagram</button>
+        <button class="a" id="you">Youtube</button>
+    </div>
+
+    <div class="box glow" onclick=glow()></div>
+    <script src="ch8ps.js"></script>
+</body>
+</html>
